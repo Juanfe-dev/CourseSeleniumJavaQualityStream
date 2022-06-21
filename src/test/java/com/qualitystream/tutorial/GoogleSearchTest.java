@@ -65,9 +65,6 @@ public class GoogleSearchTest {
 				// verificamos con junit
 				assertTrue(driver.findElement(videoLinkLocator).isDisplayed());
 				
-				
-		
-		
 		// revisamos resultados de la busqueda con junit
 		assertEquals("quality-stream Introducción a la Automatización de Pruebas de SoftWare - Buscar con Google", driver.getTitle());
 	}
@@ -76,5 +73,4 @@ public class GoogleSearchTest {
 	public void tearDown() {
 		driver.quit();
 	}
-
 }

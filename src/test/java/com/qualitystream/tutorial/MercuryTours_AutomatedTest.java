@@ -15,13 +15,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MercuryTours_AutomatedTest {
 
-	private WebDriver driver; 	
-	//creamos el localizador para registro
+	private WebDriver driver;
+	
+	//Localizadores
 	By registerLinkLocator = By.linkText("REGISTER");
 	By registerPageLocator = By.xpath("//img[@src='images/mast_register.gif']");
 	By userNameLocator = By.id("email");
-	By userPasswordLocator = By.name("password");
-	// la confirmacion de password de otra manera a modo de practica con css selector
+	By userPasswordLocator = By.name("password"); // la confirmacion de password de otra manera a modo de practica con css selector
 	By confirmPasswordLocator = By.cssSelector("input[name='confirmPassword']");
 	By registerButtonLocator = By.name("submit");
 	By userLocator = By.name("userName");
