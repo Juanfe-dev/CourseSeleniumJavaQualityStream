@@ -4,7 +4,6 @@
   <artifactId>QualityStreamTutorial</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
   <dependencies>
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
@@ -18,6 +17,25 @@
 	    <version>4.13.2</version>
 	    <scope>test</scope>
 	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi</artifactId>
+	    <version>5.2.2</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	    <version>5.2.2</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml-schemas</artifactId>
+	    <version>4.1.2</version>
+	</dependency>
+	
 	
   </dependencies>
 </project>
