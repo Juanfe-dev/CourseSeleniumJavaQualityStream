@@ -1,5 +1,7 @@
 package com.project.pom;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +29,7 @@ public class Base {
 	}
 	//Lista de elementos
 	public List<WebElement> findElements(By locator){
-		return driver.findElement(locator);
+		return driver.findElements(locator);
 	}
 	public String getText(WebElement element) {
 		return element.getText();
