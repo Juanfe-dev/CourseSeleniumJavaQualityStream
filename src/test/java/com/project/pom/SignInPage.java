@@ -23,7 +23,7 @@ public class SignInPage extends Base {
 			System.out.println("Username textbox was not present");
 		}
 	}
-	
+
 	public Boolean isHomePageDisplayed() {
 		return isDisplayed(homePage);
 	}
