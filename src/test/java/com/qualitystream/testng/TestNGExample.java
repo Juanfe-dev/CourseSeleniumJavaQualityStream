@@ -43,7 +43,6 @@ public class TestNGExample {
 		
 		//Validacion
 		assertTrue(driver.findElement(resultsLocator).isDisplayed(), "The result number is not present");
-		
 	}
 
 	@BeforeClass

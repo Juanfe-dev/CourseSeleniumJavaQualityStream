@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qualitystream.testng.TestNGDataProviderExample">
+      <class name="com.qualitystream.testng.CrossBrownserTesting">
         <methods>
-          <include name="login" invocation-numbers="0 1"/>
           <include name="afterClass"/>
+          <include name="googleSearch"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.qualitystream.testng.TestNGDataProviderExample -->
+      </class> <!-- com.qualitystream.testng.CrossBrownserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
