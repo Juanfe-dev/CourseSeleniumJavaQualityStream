@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<!--Parametro de suite que puede ser usado por todos los test -->
-	<parameter name="URL" value="https://www.google.com" />
+<suite name="SuiteSearch">
 
-	<test name="Test on Chrome">
-	<!--Parametro de test que puede ser usado por todos las clases de este test -->
-		<parameter name="BrowserType" value="Chrome"></parameter>
-		<classes>
-			<class name="com.qualitystream.testng.CrossBrowserTesting" />
-		</classes>
-	</test> <!-- Test -->
+  <test name="SearchBlouses">
+    <classes>
+      <class name="com.reportsExample.qs.SearchBlouses"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="SearchSummerDresses">
+    <classes>
+      <class name="com.reportsExample.qs.SearchSummerDresses"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="SearchChiffonDresses">
+    <classes>
+    <class name="com.reportsExample.qs.SearchChiffonDresses"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- SuiteSearch -->
 
-	<test name="Test on Firefox">
-		<parameter name="BrowserType" value="Firefox"></parameter>
-		<classes>
-			<class name="com.qualitystream.testng.CrossBrowserTesting" />
-		</classes>
-	</test> <!-- Test -->
 
-	<test name="Test on Microsoft Edge">
-		<parameter name="BrowserType" value="Microsoft Edge"></parameter>
-		<classes>
-			<class name="com.qualitystream.testng.CrossBrowserTesting" />
-		</classes>
-	</test> <!-- Test -->
-	
-</suite> <!-- Suite -->
+     
