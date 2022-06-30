@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SuiteSearch]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="SearchBlouses(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.reportsExample.qs.SearchBlouses">
+      <class name="com.chekingLinks.test.CheckLinksTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="CheckingLinks"/>
           <include name="afterClass"/>
-          <include name="search_Blouses"/>
         </methods>
-      </class> <!-- com.reportsExample.qs.SearchBlouses -->
+      </class> <!-- com.chekingLinks.test.CheckLinksTest -->
     </classes>
-  </test> <!-- SearchBlouses(failed) -->
-  <test thread-count="5" name="SearchSummerDresses(failed)">
-    <classes>
-      <class name="com.reportsExample.qs.SearchSummerDresses">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="search_SummerDresses"/>
-        </methods>
-      </class> <!-- com.reportsExample.qs.SearchSummerDresses -->
-    </classes>
-  </test> <!-- SearchSummerDresses(failed) -->
-  <test thread-count="5" name="SearchChiffonDresses(failed)">
-    <classes>
-      <class name="com.reportsExample.qs.SearchChiffonDresses">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="search_ChiffonDresses"/>
-        </methods>
-      </class> <!-- com.reportsExample.qs.SearchChiffonDresses -->
-    </classes>
-  </test> <!-- SearchChiffonDresses(failed) -->
-</suite> <!-- Failed suite [SuiteSearch] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -35,7 +35,7 @@ public class SearchBlouses {
 	public void search_Blouses() {
 		WebElement searchBox = driver.findElement(searchBoxLocator);
 		searchBox.clear();
-		searchBox.sendKeys("blouse");
+		searchBox.sendKeys("blouses");
 		searchBox.submit();
 
 		// Creamos una espera
