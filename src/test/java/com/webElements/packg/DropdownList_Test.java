@@ -27,7 +27,6 @@ public class DropdownList_Test {
 	public void testing_classic_DDL() {
 		ddLPage.visit("https://demo.guru99.com/test/newtours/index.php");
 		ddLPage.signIn();
-		
 		assertEquals(ddLPage.selectDropdownList_Passengers(), "4"); //Recordar el espacio "4 "
 		assertEquals(ddLPage.selectedDropdownList_DepartingFrom(), "Paris");
 	}
